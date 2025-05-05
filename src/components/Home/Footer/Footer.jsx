@@ -20,10 +20,10 @@ const Footer = () => {
     <div className="flex relative flex-col  h-auto  text-white bg-[#000000] max-md:px-10 max-md:py-0">
       <img src={im} alt="" className="absolute w-full" />
       <div className="flex flex-col items-center justify-center mt-10 px-20 py-10">
-        <h1 className="mb-4 text-5xl text-[#FFFFFF] font-[Poppins] font-[275] max-sm:text-4xl">
+        <h1 className="mb-4 text-5xl text-[#FFFFFF] bebas-neue font-[275] max-sm:text-4xl">
           Planning for the next big step?
         </h1>
-        <span className="mb-9 text-xl text-[#FFFFFF] font-[Poppins] font-[400] max-sm:text-4xl">
+        <span className="mb-9 text-xl text-[#FFFFFF] bebas-neue font-[400] max-sm:text-4xl">
           We can help you navigate toward your business goals.
         </span>
         <button className="flex relative pr-12 items-center px-5 py-2.5 text-base cursor-pointer sm:mr-0 mr-4">
@@ -35,7 +35,7 @@ const Footer = () => {
       <div className="flex flex-row justify-center">
         <div className="flex flex-col">
           <img src={logo} alt="Ekkaa Logo" className="w-18 object-left mb-4" />
-          <span className=" font-[SF Pro Display]font-[300] text-base">
+          <span className=" bebas-neue font-[300] text-base">
             Ekkaa Electronics powers <br /> experiences that shape <br />{" "}
             everyday life.
           </span>
@@ -47,20 +47,20 @@ const Footer = () => {
         <img src={line} alt="" className="w-1 ml-10 mr-10 h-72" />
 
         <div className="flex flex-col ml-12">
-          <h1 className="font-[Poppins] text-[2rem] font-[300] ">
+          <h1 className="bebas-neue text-[2rem] font-[300] ">
             Quick Links
           </h1>
           <div className="flex flex-col mt-10 gap-4">
-            <span className=" font-[Poppins] font-[300] text-base cursor-pointer">
+            <span className=" bebas-neue font-[300] text-base cursor-pointer">
               Services
             </span>
-            <span className=" font-[Poppins] font-[300] text-base cursor-pointer">
+            <span className=" bebas-neue font-[300] text-base cursor-pointer">
               Our Products
             </span>
-            <span className=" font-[Poppins] font-[300] text-base cursor-pointer">
+            <span className=" bebas-neue font-[300] text-base cursor-pointer">
               About us
             </span>
-            <span className=" font-[Poppins] font-[300] text-base cursor-pointer">
+            <span className=" bebas-neue font-[300] text-base cursor-pointer">
               Carrer
             </span>
           </div>
@@ -68,25 +68,25 @@ const Footer = () => {
 
         <img src={line} alt="" className="w-1 ml-10 mr-10 h-72" />
         <div className="flex flex-col ml-12">
-          <h1 className="font-[Poppins] text-[2rem] font-[300] ">Contact</h1>
+          <h1 className="bebas-neue text-[2rem] font-[300] ">Contact</h1>
           <div className="flex flex-col mt-10 gap-4">
-            <div className="flex items-center gap-2 -ml-1 cursor-pointer font-[Poppins] font-[300] text-base">
+            <div className="flex items-center gap-2 -ml-1 cursor-pointer bebas-neue font-[300] text-base">
               <img src={emailIcon} alt="" className="w-7" />
               Query.ekkaa@gmail.com
             </div>
-            <div className="flex items-center gap-2 cursor-pointer font-[Poppins] font-[300] text-base">
+            <div className="flex items-center gap-2 cursor-pointer bebas-neue font-[300] text-base">
               <img src={callIcon} alt="" className="w-5" />
               +91 8527197251 (Kundli)
             </div>
-            <div className="flex items-center gap-2 cursor-pointer font-[Poppins] font-[300] text-base">
+            <div className="flex items-center gap-2 cursor-pointer bebas-neue font-[300] text-base">
               <img src={locationIcon} alt="" className="w-5" />
               Sonipat, Haryana
             </div>
-            <div className="flex items-center gap-2 cursor-pointer font-[Poppins] font-[300] text-base">
+            <div className="flex items-center gap-2 cursor-pointer bebas-neue font-[300] text-base">
               <img src={callIcon} alt="" className="w-5" />
               +91 9138953303
             </div>
-            <div className="flex items-center gap-2 cursor-pointer font-[Poppins] font-[300] text-base">
+            <div className="flex items-center gap-2 cursor-pointer bebas-neue font-[300] text-base">
               <img src={locationIcon} alt="" className="w-5" />
               Noida, UP
             </div>
@@ -94,7 +94,7 @@ const Footer = () => {
         </div>
         <img src={line} alt="" className="w-1  ml-10 mr-10 h-72" />
         <div className="flex flex-col ml-12">
-          <h1 className="font-[Poppins] text-[2rem] font-[300] ">Newsletter</h1>
+          <h1 className="bebas-neue text-[2rem] font-[300] ">Newsletter</h1>
 
           <div className="flex felx-col mt-10 relative justify-center items-center">
             <input
@@ -111,7 +111,7 @@ const Footer = () => {
         </div>
       </div>
       <img src={line1} alt="" className="mt-12 w-full" />
-      <div className="flex flex-row justify-between m-6 font-[Poppins] text-[#C6C6C6]">
+      <div className="flex flex-row justify-between m-6 bebas-neue text-[#C6C6C6]">
         <span>
           © Ekkaa Electronics Industries Pvt. Ltd. All Rights Reserved.
         </span>
@@ -123,10 +123,10 @@ const Footer = () => {
   const MobileFooter = () => (
     <div className="flex relative flex-col h-auto text-white bg-[#080E1C] px-6 py-8">
       <div className="flex flex-col items-center justify-center py-6">
-        <h1 className="mb-3 text-3xl text-center text-[#FFFFFF] font-[Poppins] font-[275]">
+        <h1 className="mb-3 text-3xl text-center text-[#FFFFFF] bebas-neue font-[275]">
           Planning for the next big step?
         </h1>
-        <span className="mb-6 text-lg text-center text-[#FFFFFF] font-[Poppins] font-[400]">
+        <span className="mb-6 text-lg text-center text-[#FFFFFF] bebas-neue font-[400]">
           We can help you navigate toward your business goals.
         </span>
         <button className="flex relative pr-12 items-center px-5 py-2.5 text-base cursor-pointer sm:mr-0 mr-4">
@@ -148,20 +148,20 @@ const Footer = () => {
       <img src={line} alt="" className="w-full my-8 h-[1px]" />
 
       <div className="flex flex-col items-center mb-8">
-        <h1 className="font-[Poppins] text-[1.5rem] font-[300] mb-4">
+        <h1 className="bebas-neue text-[1.5rem] font-[300] mb-4">
           Quick Links
         </h1>
         <div className="flex flex-col items-center gap-3">
-          <span className=" font-[Poppins] font-[300] text-base cursor-pointer">
+          <span className=" bebas-neue font-[300] text-base cursor-pointer">
             Services
           </span>
-          <span className=" font-[Poppins] font-[300] text-base cursor-pointer">
+          <span className=" bebas-neue font-[300] text-base cursor-pointer">
             Our Products
           </span>
-          <span className=" font-[Poppins] font-[300] text-base cursor-pointer">
+          <span className=" bebas-neue font-[300] text-base cursor-pointer">
             About us
           </span>
-          <span className=" font-[Poppins] font-[300] text-base cursor-pointer">
+          <span className=" bebas-neue font-[300] text-base cursor-pointer">
             Carrer
           </span>
         </div>
@@ -169,27 +169,27 @@ const Footer = () => {
 
       <img src={line} alt="" className="w-full my-8 h-[1px]" />
       <div className="flex flex-col items-center mb-8">
-        <h1 className="font-[Poppins] text-[1.5rem] font-[300] mb-4 text-center">
+        <h1 className="bebas-neue text-[1.5rem] font-[300] mb-4 text-center">
           Contact
         </h1>
         <div className="flex flex-col items-center gap-3">
-          <div className="flex items-center gap-2 cursor-pointer font-[Poppins] font-[300] text-base">
+          <div className="flex items-center gap-2 cursor-pointer bebas-neue font-[300] text-base">
             <img src={emailIcon} alt="" className="w-6" />
             Query.ekkaa@gmail.com
           </div>
-          <div className="flex items-center gap-2 cursor-pointer font-[Poppins] font-[300] text-base">
+          <div className="flex items-center gap-2 cursor-pointer bebas-neue font-[300] text-base">
             <img src={callIcon} alt="" className="w-5" />
             +91 8527197251
           </div>
-          <div className="flex items-center gap-2 cursor-pointer font-[Poppins] font-[300] text-base">
+          <div className="flex items-center gap-2 cursor-pointer bebas-neue font-[300] text-base">
             <img src={locationIcon} alt="" className="w-5" />
             Sonipat, Haryana
           </div>
-          <div className="flex items-center gap-2 cursor-pointer font-[Poppins] font-[300] text-base">
+          <div className="flex items-center gap-2 cursor-pointer bebas-neue font-[300] text-base">
             <img src={callIcon} alt="" className="w-5" />
             +91 9138953303
           </div>
-          <div className="flex items-center gap-2 cursor-pointer font-[Poppins] font-[300] text-base">
+          <div className="flex items-center gap-2 cursor-pointer bebas-neue font-[300] text-base">
             <img src={locationIcon} alt="" className="w-5" />
             Noida, UP
           </div>
@@ -197,7 +197,7 @@ const Footer = () => {
       </div>
       <img src={line} alt="" className="w-full my-8 h-[1px]" />
       <div className="flex flex-col items-center">
-        <h1 className="font-[Poppins] text-[1.5rem] font-[300] mb-4">
+        <h1 className="bebas-neue text-[1.5rem] font-[300] mb-4">
           Newsletter
         </h1>
         <div className="flex felx-col relative justify-center items-center">
@@ -214,7 +214,7 @@ const Footer = () => {
         </div>
       </div>
       <img src={line1} alt="" className="mt-8 w-full" />
-      <div className="flex flex-col items-center text-center py-4 font-[Poppins] text-[#C6C6C6] text-sm">
+      <div className="flex flex-col items-center text-center py-4 bebas-neue text-[#C6C6C6] text-sm">
         <span>© Ekkaa Electronics Industries Pvt. Ltd.</span>
         <span>All Rights Reserved.</span>
         <div className="flex gap-4 mt-2">
