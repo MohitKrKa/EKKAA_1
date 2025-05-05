@@ -159,9 +159,9 @@ const OurProducts = () => {
       {/* Pinning section */}
       <section
         ref={sectionRef}
-        className="sticky top-0 h-screen w-full overflow-hidden text-white flex flex-col items-center justify-center font-[Bebas Neue] bg-black z-10"
+        className="sticky top-0 h-screen w-full overflow-hidden text-white flex flex-col items-center justify-center bebas-neue bg-black z-10"
       >
-        <h2 className="text-7xl uppercase font-[400] mt-12 mb-10">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase font-[400] mt-12 mb-10">
           Our products
         </h2>
         <div className="flex flex-row items-center justify-center gap-6">
@@ -181,7 +181,7 @@ const OurProducts = () => {
   );
 
   const renderMobile = () => (
-    <section className="bg-black py-8 px-4 text-white font-[Bebas Neue]">
+    <section className="bg-black py-8 px-4 text-white bebas-neue">
       <h2 className="text-3xl font-[300] mb-6 text-center">Our products</h2>
       <div className="flex flex-col items-center gap-6">
         {products.map((product, index) => (

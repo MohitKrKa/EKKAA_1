@@ -55,7 +55,7 @@ const About = () => {
 
       <div
         ref={sectionRef}
-        className="hidden md:flex absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10  flex-col items-center justify-center text-white uppercase font-[Bebas Neue] py-32 px-4 text-center"
+        className="hidden md:flex absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10  flex-col items-center justify-center text-white uppercase bebas-neue py-32 px-4 text-center"
       >
         {/* Responsive width wrapper */}
         <div className="w-[90%] sm:w-[80%] md:w-full">

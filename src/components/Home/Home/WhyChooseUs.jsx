@@ -22,7 +22,7 @@ const images = [
 const WhyChooseUs = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center bg-[#000000] p-10 overflow-hidden">
-      <h1 className="text-white font-[SF Pro Display] font-[275] text-[2rem] sm:text-[3.5rem] md:text-[4rem] lg:text-[5rem] uppercase pb-10">
+      <h1 className="text-white bebas-neue font-[275] text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase pb-10">
         Why Choose Us
       </h1>
 

@@ -61,14 +61,14 @@ export default function Offerings() {
       {/* Foreground content scrolls over it */}
       <div className="absolute top-0 left-0 h-full w-full">
         <div className="sticky top-18 h-[calc(100vh-70px)] flex flex-col justify-between items-center  to-white z-10 text-white text-center px-4 py-6 overflow-hidden">
-          <h1 className="relative z-30 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-[SF Pro Display] font-[275] text-white mb-4">
+          <h1 className="relative z-30 text-4xl sm:text-5xl md:text-6xl lg:text-7xl bebas-neue font-[275] text-white mb-4">
             OUR OFFERINGS
           </h1>
 
           <AnimatePresence mode="wait">
             <motion.div
               key={`desc-${currentVideo}`}
-              className="font-[SF Pro Display] font-[500] text-balance px-4 text-[11px] sm:text-sm md:text-base lg:text-lg max-w-[90%] sm:max-w-[80%] md:max-w-[700px] lg:max-w-[850px]"
+              className="bebas-neue font-[500] text-balance px-4 text-[11px] sm:text-sm md:text-base lg:text-lg max-w-[90%] sm:max-w-[80%] md:max-w-[700px] lg:max-w-[850px]"
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
@@ -129,7 +129,7 @@ export default function Offerings() {
           <AnimatePresence mode="wait">
             <motion.div
               key={`title-${currentVideo}`}
-              className="w-[4xl] font-[SF Pro Display]  font-[600] text-xl sm:text-2xl md:text-3xl lg:text-4xl"
+              className="w-[4xl] bebas-neue  font-[600] text-xl sm:text-2xl md:text-3xl lg:text-4xl"
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
