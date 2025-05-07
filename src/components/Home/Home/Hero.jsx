@@ -1,5 +1,5 @@
 import React from "react";
-import herobg from "/Home/Hero.webm";
+import herobg from "/Home/Hero.mp4";
 import { motion } from "framer-motion";
 
 const text = "Bridging Technology, Empowering Brands";
@@ -36,13 +36,20 @@ const Hero = () => {
   return (
     <div className="relative w-full h-screen overflow-hidden">
       <video
-        className="absolute top-0 left-0 w-full h-full object-cover"
-        src="./Home/Hero.webm"
-        autoPlay
-        loop
-        muted
-        playsInline
-      />
+      src={herobg}
+  className="absolute top-0 left-0 w-full h-full object-cover"
+  autoPlay
+  loop
+  muted
+  playsInline
+>
+  {/* <source src="/Home/Hero.mp4" type="video/mp4" />
+  Your browser does not support the video tag. */}
+</video>
+{/* <video controls playsInline muted autoPlay crossOrigin="anonymous">
+  <source src="./Home/Hero.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video> */}
       <div className="relative z-10 flex items-center justify-center h-full text-white uppercase bebas-neue">
         <h1 className="text-9xl  font-semibol  justify-center items-center space-y-">
           <span className="block leading-none tracking-normal">{renderAnimatedText(firstLine + ",")}</span>

@@ -3,9 +3,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const videos = [
-  "./Home/Offerings/slide1/Screen 01.webm",
-  "./Home/Offerings/slide2/Screen 02.webm",
-  "./Home/Offerings/slide3/Screen 03.webm",
+  "./Home/Offerings/slide1/Screen 01.mp4",
+  "./Home/Offerings/slide2/Screen 02.mp4",
+  "./Home/Offerings/slide3/Screen 03.mp4",
 ];
 
 const ell = [
@@ -49,7 +49,7 @@ export default function Offerings() {
       {/* This is the section-scoped sticky video */}
       <div className="sticky top-0 h-screen w-full z-0">
         <video
-          src="./Home/Offerings/BG.webm"
+          src="./Home/Offerings/BG.mp4"
           autoPlay
           muted
           loop
