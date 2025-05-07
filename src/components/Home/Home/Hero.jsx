@@ -44,9 +44,9 @@ const Hero = () => {
         playsInline
       />
       <div className="relative z-10 flex items-center justify-center h-full text-white uppercase bebas-neue">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[8vh] font-semibold  justify-center items-center space-y-6">
-          <span className="block tracking-wider">{renderAnimatedText(firstLine + ",")}</span>
-          <span className="block tracking-wider">{renderAnimatedText(secondLine)}</span>
+        <h1 className="text-9xl  font-semibol  justify-center items-center space-y-">
+          <span className="block leading-none tracking-normal">{renderAnimatedText(firstLine + ",")}</span>
+          <span className="block tracking-normal leading-none">{renderAnimatedText(secondLine)}</span>
         </h1>
       </div>
 

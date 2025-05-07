@@ -22,7 +22,7 @@ const images = [
 const WhyChooseUs = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center bg-[#000000] p-10 overflow-hidden">
-      <h1 className="text-white bebas-neue font-[275] text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase pb-10">
+      <h1 className="text-white bebas-neue font-[275] text-4xl sm:text-5xl md:text-6xl lg:text-8xl uppercase pb-10">
         Why Choose Us
       </h1>
 
@@ -48,7 +48,7 @@ const WhyChooseUs = () => {
 
             {/* Text Overlay */}
             <div className="absolute inset-0 z-20 flex items-end justify-center p-4">
-              <span className="text-white text-xl font-semibold whitespace-pre-line text-center">
+              <span className="text-white text-xl font-[Poppins] font-[200] whitespace-pre-line text-center">
                 {item.text + (item.text1 ? "\n" + item.text1 : "")}
               </span>
             </div>

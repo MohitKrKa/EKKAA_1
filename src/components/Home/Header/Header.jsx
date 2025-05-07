@@ -77,13 +77,13 @@ const Header = () => {
             transition={{ duration: 0.3 }}
             className={`${isScrolled ? "hidden" : "block"}`}
           >
-            <button className="hidden sm:flex relative pr-12 items-center px-5 py-2.5 text-base cursor-pointer sm:mr-0 mr-4">
-              <img src={talktoExpert} alt="" className="absolute" />
-              <span className="ml-5 text-white">Talk to expert</span>
+            <button className="hidden relative w-[150px] sm:flex items-center px-5 py-2.5 text-base cursor-pointer mr-4">
+              <img src={talktoExpert} alt="" className="absolute transform -translate-x-1/2 left-1/2" />
+              <span className="text-white absolute transform -translate-x-1/2 whitespace-pre left-1/2 mx-auto font-[Poppins]">Talk to expert</span>
             </button>
           </motion.div>
         </motion.div>
-      </motion.header>
+      </motion.header> 
     </div>
   );
 };

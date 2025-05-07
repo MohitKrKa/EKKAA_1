@@ -12,10 +12,10 @@ gsap.registerPlugin(Observer);
 
 const products = [
   { img: LEDtV, label: "LED TVs" },
-  { img: StB, label: "DTH SET TOP BOX" },
-  { img: WM, label: "WASHING MACHINE" },
-  { img: Speaker, label: "MULTIMEDIA SPEAKER" },
-  { img: SW, label: "WEARABLES & HEARABLE" },
+  { img: StB, label: "DTH Set Top Box" },
+  { img: WM, label: "Washing Machine" },
+  { img: Speaker, label: "Multimedia Speaker" },
+  { img: SW, label: "Wearables & Hearable" },
 ];
 
 const OurProducts = () => {
@@ -161,7 +161,7 @@ const OurProducts = () => {
         ref={sectionRef}
         className="sticky top-0 h-screen w-full overflow-hidden text-white flex flex-col items-center justify-center bebas-neue bg-black z-10"
       >
-        <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl uppercase font-[400] mt-12 mb-10">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl uppercase font-[400] mt-12 mb-10">
           Our products
         </h2>
         <div className="flex flex-row items-center justify-center gap-6">
@@ -172,7 +172,7 @@ const OurProducts = () => {
               className="flex flex-col items-center justify-center shadow-lg border-2 border-[#2f2f2fb2] h-[60vh] w-[18vw] p-6 bg-[#1a1a1a] rounded-md"
             >
               <img src={product.img} alt={product.label} className="w-full cursor-pointer" />
-              <p className="mt-4 text-[1rem] font-[400]">{product.label}</p>
+              <p className="mt-6 text-[1.35rem] font-[Poppins] font-[200]">{product.label}</p>
             </div>
           ))}
         </div>
@@ -194,7 +194,7 @@ const OurProducts = () => {
               alt={product.label}
               className="h-16 w-auto object-contain"
             />
-            <p className="mt-2 text-sm font-[400] text-center">
+            <p className="mt-2 text-base !font-[Poppins] font-[400] text-center">
               {product.label}
             </p>
           </div>

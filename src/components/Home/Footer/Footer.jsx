@@ -20,10 +20,10 @@ const Footer = () => {
     <div className="flex relative flex-col  h-auto  text-white bg-[#000000] max-md:px-10 max-md:py-0">
       <img src={im} alt="" className="absolute w-full" />
       <div className="flex flex-col items-center justify-center mt-10 px-20 py-10">
-        <h1 className="mb-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-[#FFFFFF] bebas-neue font-[275] max-sm:text-4xl">
+        <h1 className="mb-4 text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-[#FFFFFF] bebas-neue font-[275] max-sm:text-4xl">
           Planning for the next big step?
         </h1>
-        <span className="mb-9 text-xl text-[#FFFFFF] font-[Poppins] font-[400] max-sm:text-4xl">
+        <span className="mb-9 text-[1.35rem] text-[#FFFFFF] font-[Poppins] font-[200] max-sm:text-4xl">
           We can help you navigate toward your business goals.
         </span>
         <button className="flex relative pr-12 items-center px-5 py-2.5 text-base cursor-pointer sm:mr-0 mr-4">

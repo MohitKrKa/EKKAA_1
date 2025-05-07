@@ -166,8 +166,8 @@ const Navigation = ({ isScrolled }) => {
         className={`
           ${
             isScrolled
-              ? "w-full flex justify-center fixed top-0 bg-white items-center pt-2 h-18 gap-6 pb-4 font-[SF Pro Display] text-sm sm:text-base md:text-lg lg:text-xl xl:text-[1.3rem] left-0 z-30"
-              : "flex items-center gap-6 md:gap-8 lg:gap-10 pb-2 bg-white w-full md:w-[60rem] pl-6 md:pl-10 pt-2 text-black h-12 font-[SF Pro Display] font-[400] max-md:hidden"
+              ? "w-full flex justify-center fixed top-0 bg-white items-center pt-2 h-18 gap-6 pb-4 font-[Poppins] text-sm sm:text-base md:text-lg lg:text-xl xl:text-[1.3rem] left-0 z-30"
+              : "flex items-center gap-6 md:gap-8 lg:gap-10 pb-2 bg-white w-full md:w-[60rem] pl-6 md:pl-10 pt-2 text-black h-12 font-[Poppins] font-[400] max-md:hidden"
           }`}
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -186,7 +186,7 @@ const Navigation = ({ isScrolled }) => {
         )}
 
         <nav
-          className={`flex flex-wrap gap-4  sm:gap-6 md:gap-8 font-[SF Pro Display] font-[400] ${
+          className={`flex flex-wrap gap-4  sm:gap-6 md:gap-8 font-[Poppins] font-[400] ${
             isScrolled ? "text-black mt-2 w-full justify-center" : ""
           }`}
         >
@@ -291,7 +291,7 @@ const Navigation = ({ isScrolled }) => {
         </nav>
 
         <motion.div
-          className={`flex gap-4  font-[SF Pro Display] font-[400] ${
+          className={`flex gap-4  font-[Poppins] font-[400] ${
             isScrolled
               ? "relative cursor-pointer mr-4 md:mr-8 h-8 w-6"
               : "relative cursor-pointer ml-4 md:ml-8 h-6 w-6"
@@ -331,7 +331,7 @@ const Navigation = ({ isScrolled }) => {
             <img
               src={talktoExpert}
               alt="Talk to Expert"
-              className="h-12 w-40 sm:w-44"
+              className="h-12 w-40 sm:w-44 "
             />
           </button>
         )}

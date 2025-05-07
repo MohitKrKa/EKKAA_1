@@ -40,7 +40,7 @@ const About = () => {
       />
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black via-black/45 to-black/30 z-10 pointer-events-none" />
       <div className="absolute inset-0 flex items-center justify-center z-20 md:hidden px-4">
-        <p className="text-white text-xl font-semibold leading-snug w-full max-w-[90%] text-center">
+        <p className="text-white text-xl  leading-snug w-full max-w-[90%] text-center">
           {words.map((word, index) => (
             <span
               key={index}
@@ -55,18 +55,18 @@ const About = () => {
 
       <div
         ref={sectionRef}
-        className="hidden md:flex absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10  flex-col items-center justify-center text-white uppercase bebas-neue py-32 px-4 text-center"
+        className="hidden md:flex absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10  flex-col items-center justify-center text-white font-[Poppins] py-32 px-4 text-center"
       >
         {/* Responsive width wrapper */}
         <div className="w-[90%] sm:w-[80%] md:w-full">
-          <h2 className="hidden md:flex text-base sm:text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug  flex-wrap gap-x-3 sm:gap-x-4 md:gap-x-5 ">
+          <h2 className="hidden md:flex text-base sm:text-2xl md:text-3xl lg:text-4xl  leading-snug  flex-wrap gap-x-3 sm:gap-x-4 md:gap-x-3 ">
             {words.map((word, index) => (
               <motion.span
                 key={index}
                 animate={{
                   color: index < visibleWords ? "#ffffff" : "#888888",
                 }}
-                transition={{ duration: 0.001, ease: "easeInOut", delay: 0.1 }}
+                transition={{ duration: 0.004, ease: "easeInOut", delay: 0.1 }}
               >
                 {word + " "}
               </motion.span>
