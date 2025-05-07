@@ -39,8 +39,8 @@ const About = () => {
         playsInline
       />
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black via-black/45 to-black/30 z-10 pointer-events-none" />
-      <div className="absolute inset-0 flex items-center justify-center z-20 md:hidden px-4">
-        <p className="text-white text-xl  leading-snug w-full max-w-[90%] text-center">
+      <div className="absolute flex items-center justify-center z-20 md:hidden px-4">
+        <p className="text-white text-xl w-full max-w-[90%] text-center">
           {words.map((word, index) => (
             <span
               key={index}
@@ -59,7 +59,7 @@ const About = () => {
       >
         {/* Responsive width wrapper */}
         <div className="w-[90%] sm:w-[80%] md:w-full">
-          <h2 className="hidden md:flex text-base sm:text-2xl md:text-3xl lg:text-4xl  leading-snug  flex-wrap gap-x-3 sm:gap-x-4 md:gap-x-3 ">
+          <h2 className="hidden md:flex text-base sm:text-2xl md:text-3xl leading-tight lg:text-4xl font-[350] flex-wrap gap-x-3 sm:gap-x-4 md:gap-x-3 ">
             {words.map((word, index) => (
               <motion.span
                 key={index}
