@@ -172,7 +172,7 @@ const OurProducts = () => {
               className="flex flex-col items-center justify-center shadow-lg border-2 border-[#2f2f2fb2] h-[60vh] w-[18vw] p-6 bg-[#1a1a1a] rounded-md"
             >
               <img src={product.img} alt={product.label} className="w-full cursor-pointer" />
-              <p className="mt-6 text-[1.35rem] font-[Poppins] font-[200]">{product.label}</p>
+              <p className="mt-6 text-[2vh] font-[Poppins] font-[200]">{product.label}</p>
             </div>
           ))}
         </div>
