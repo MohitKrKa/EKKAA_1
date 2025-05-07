@@ -6,9 +6,9 @@ const ChairmanSpeech = () => {
     <div className='text-white flex flex-col-reverse lg:flex-row mt-20  justify-center items-center gap-10 px-6 bebas-neue'>
       
       <div className='w-full lg:max-w-[40%] flex flex-col gap-6 text-center lg:text-left'>
-        <h2 className='text-4xl sm:text-5xl md:text-6xl lg:text-8xl uppercase'>Chairman'S Speech</h2>
+        <h2 className='text-4xl sm:text-5xl md:text-6xl lg:text-[9vh] uppercase'>Chairman'S Speech</h2>
         
-        <p className='text-lg font-[Poppins] sm:text-xl md:text-3xl font-[200]'>
+        <p className='text-lg font-[Poppins] sm:text-xl md:text-[3vh] font-[200]'>
           “Ekkaa is all about reimagining the future of electronics. We prioritise innovation and self-reliance while paving the way for a smarter and more sustainable future”
         </p> 
         
