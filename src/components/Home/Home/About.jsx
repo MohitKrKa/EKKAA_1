@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
-import aboutbg from "/Home/Aboutbg.webm";
+import aboutbg from "/Home/Aboutbg.mp4";
 import aboutBtn from "/Home/AboutBtn.svg";
 
 const About = () => {
@@ -39,7 +39,7 @@ const About = () => {
         playsInline
       />
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black via-black/45 to-black/30 z-10 pointer-events-none" />
-      <div className="absolute flex items-center justify-center z-20 md:hidden px-4">
+      <div className="absolute inset-0 flex items-center justify-center z-20 md:hidden px-4">
         <p className="text-white text-xl w-full max-w-[90%] text-center">
           {words.map((word, index) => (
             <span

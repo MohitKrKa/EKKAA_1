@@ -43,15 +43,10 @@ const Hero = () => {
   muted
   playsInline
 >
-  {/* <source src="/Home/Hero.mp4" type="video/mp4" />
-  Your browser does not support the video tag. */}
 </video>
-{/* <video controls playsInline muted autoPlay crossOrigin="anonymous">
-  <source src="./Home/Hero.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video> */}
+
       <div className="relative z-10 flex items-center justify-center h-full text-white uppercase bebas-neue">
-        <h1 className="text-9xl  font-semibol  justify-center items-center space-y-">
+        <h1 className="text-[12vw] sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl   font-semibol  justify-center items-center ">
           <span className="block leading-none tracking-normal">{renderAnimatedText(firstLine + ",")}</span>
           <span className="block tracking-normal leading-none">{renderAnimatedText(secondLine)}</span>
         </h1>
