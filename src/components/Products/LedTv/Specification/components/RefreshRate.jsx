@@ -19,7 +19,7 @@ const RefreshRate = () => {
       className="h-auto mt-5 justify-center font-[SF Pro Display]"
     >
       <div className="flex flex-col items-center">
-        <h2 className="bg-gradient-to-r font-[300] p-3 from-[#C1F0A2] to-[#E2F9EF] bg-clip-text text-transparent md:text-7xl text-3xl">
+        <h2 className="bg-gradient-to-r font-[300] p-3 from-[#C1F0A2] to-[#E2F9EF] bg-clip-text text-transparent md:text-7xl text-3xl bebas-neue">
           Next generation refresh rate
         </h2>
         <p className="text-white md:max-w-[52vw] md:p-0 p-5 md:text-center md:text-base text-sm font-[200] leading-relaxed">

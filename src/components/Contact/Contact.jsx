@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Home/Header/Navbar'
 import bgimage from '/Contact/bg.png'
 import FormPage from './FormPage'
+import Footer from '../Footer'
 
 const Contact = () => {
   return (
@@ -17,6 +18,7 @@ const Contact = () => {
     
     <FormPage/>
     </div>
+    <Footer/>
     </>
   )
 }
