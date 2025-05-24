@@ -2,9 +2,10 @@ import React from "react";
 import Header from "../../Home/Header/Header";
 import Hero from "./Hero";
 import ScreenTime from "./ScreenTime/ScreenTime";
-import Specs from "./Specification/specs";
+
 import Footer from "../../Footer";
 import Navbar from "../../Home/Header/Navbar";
+import Specs from "./Specification/specs";
 
 const LedTv = () => {
   return (
@@ -13,7 +14,7 @@ const LedTv = () => {
         <Navbar />
         <Hero />
         <ScreenTime />
-        <Specs />
+<Specs/>
         <Footer />
       </div>
     </>

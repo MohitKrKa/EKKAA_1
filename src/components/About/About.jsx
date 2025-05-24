@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../Home/Header/Header";
+
 import Hero from "./Hero";
 import Purpose from "./Purpose/Purpose";
 import Values from "./Values";
@@ -23,7 +23,7 @@ const About = () => {
         <Vision />
 
         <Guiding />
-        
+
         <Ideas />
         <Together />
         <Footer />

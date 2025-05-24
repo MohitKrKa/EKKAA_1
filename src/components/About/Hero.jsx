@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import herobg from "/About/Hero/hero.png";
-import ove from "/About/Hero/over.svg";
+
 
 // Split text into characters for animation
 const AnimatedText = ({ text }) => {

@@ -1,10 +1,10 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, {useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import im from "/About/Ideas/im.png";
-import bg from "/About/Ideas/bg.png";
+
 
 const Ideas = () => {
-  const [isMobile, setIsMobile] = useState(false);
+
   const ref = useRef(null);
   const inView = useInView(ref, { amount: 0.6, once: true });
 

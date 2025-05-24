@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import line from "/About/Together/line.svg";
-import im from "/About/Together/im.svg";
+
 import im1 from "/About/Together/im1.png";
 import im2 from "/About/Together/im2.png";
 import im4 from "/About/Together/im3.png";
