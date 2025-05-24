@@ -182,7 +182,7 @@ const OurProducts = () => {
 
   const renderMobile = () => (
     <section className="bg-black py-8 px-4 text-white bebas-neue">
-      <h2 className="text-3xl font-[300] mb-6 text-center">Our products</h2>
+      <h2 className="text-4xl font-[300] mb-6 text-center">Our products</h2>
       <div className="flex flex-col items-center gap-6">
         {products.map((product, index) => (
           <div

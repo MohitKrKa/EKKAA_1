@@ -5,14 +5,18 @@ import About from "./About";
 import OurProducts from "./OurProducts";
 import Offerings from "./Offerings";
 import WhyChooseUs from "./WhyChooseUs";
-import Footer from "../Footer/Footer";
+import Footer from "../../Footer";
+import Navigation1 from "../Header/Navigation1";
+import Navbar from "../Header/Navbar";
 
 
 const Home = () => {
   return (
     <>
       <div className="bg-black">
-        <Header />
+        {/* <Header /> */}
+        {/* <Navigation1/> */}
+        <Navbar/>
         <Hero />
         <ChairmanSpeech />
         <About />

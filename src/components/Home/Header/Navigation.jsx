@@ -12,7 +12,7 @@ const Navigation = ({ isScrolled }) => {
   const navItems = [
     {
       name: "About Ekkaa",
-      path: "",
+      path: "/about",
     },
     {
       name: "Our Offerings",
