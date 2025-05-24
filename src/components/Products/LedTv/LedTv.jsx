@@ -5,7 +5,12 @@ import ScreenTime from "./ScreenTime/ScreenTime";
 
 import Footer from "../../Footer";
 import Navbar from "../../Home/Header/Navbar";
-import Specs from "./Specification/specs";
+import RefreshRate from "./Specification/components/RefreshRate";
+import Sound from "./Specification/components/Sound";
+import SlimBezel from "./Specification/components/SlimBezel";
+import Inches from "./Specification/components/Inches";
+
+
 
 const LedTv = () => {
   return (
@@ -14,7 +19,10 @@ const LedTv = () => {
         <Navbar />
         <Hero />
         <ScreenTime />
-<Specs/>
+        <RefreshRate/>
+    <Sound/>
+    <SlimBezel/>
+    <Inches/>
         <Footer />
       </div>
     </>
